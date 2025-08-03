@@ -12,15 +12,6 @@ variable "pvt_key" {
   default = "~/.ssh/dopensource-training"
 }
 
-# The name of the Primary Kamailio Instances
-variable "primary-kamailio-dropletname" {
-  default = "pkam"
-}
-
-# The name of the Primary Kamailio Instances
-variable "secondary-kamailio-dropletname" {
-  default = "skam"
-}
 
 # The name ofthe FusionPBX Instances
 variable "fusionpbx-dropletname" {
